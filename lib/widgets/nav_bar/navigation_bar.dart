@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class TopNavigationBar extends StatelessWidget {
   const TopNavigationBar({Key? key}) : super(key: key);
@@ -10,11 +11,11 @@ class TopNavigationBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SizedBox(height: 50, width: 150, child: Image.asset("assets/logo/logo.png"),),
+          const Icon(Icons.all_inclusive, color: Colors.black, size: 32, semanticLabel: "Flutter log",),
           Row(
             mainAxisSize: MainAxisSize.min,
             children: const [
-              _NavBarItem("Episodes"),
+              _NavBarItem("Roadmap"),
               Padding(padding: EdgeInsets.only(left: 60)),
               _NavBarItem("About"),
               Padding(padding: EdgeInsets.only(left: 60)),

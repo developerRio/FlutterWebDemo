@@ -18,6 +18,7 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: CenteredView(
+        color: Colors.white,
         child: Column(
           children: [
             const TopNavigationBar(),
