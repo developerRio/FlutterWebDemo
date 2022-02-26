@@ -1,8 +1,8 @@
 # web_demo
 
-A Web demo in flutter framework
+A sample app for web demo by flutter framework. clone & explore ✌️
 
-## Getting Started
+## Source & Docs:
 
 This project is a starting point for a Flutter application.
 
