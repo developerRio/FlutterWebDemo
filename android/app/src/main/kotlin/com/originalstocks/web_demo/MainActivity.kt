@@ -1,0 +1,6 @@
+package com.originalstocks.web_demo
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
